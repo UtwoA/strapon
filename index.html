@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>strapon.ton</title>
+  <meta name="description" content="Официальная страница strapon.ton в сети TON" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="bg-shape bg-shape-a" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-b" aria-hidden="true"></div>
+
+  <main class="page">
+    <header class="hero">
+      <p class="badge">TON DOMAIN</p>
+      <h1>strapon.ton</h1>
+      <p class="subtitle">Мини-сайт на TON с коротким доменом для кошелька, ссылок и публикаций.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#links">Перейти к ссылкам</a>
+        <button id="copyDomainBtn" class="btn btn-secondary" type="button">Скопировать домен</button>
+      </div>
+      <p id="copyHint" class="copy-hint" aria-live="polite"></p>
+    </header>
+
+    <section id="links" class="card-grid">
+      <article class="card">
+        <h2>Кошелек</h2>
+        <p>Используй домен как читаемый алиас для TON-переводов.</p>
+        <a class="card-link" href="#">Добавить адрес в TON DNS</a>
+      </article>
+
+      <article class="card">
+        <h2>Контакты</h2>
+        <p>Telegram, X, GitHub или любые другие каналы в одном месте.</p>
+        <a class="card-link" href="#">Заполнить ссылки</a>
+      </article>
+
+      <article class="card">
+        <h2>Статус</h2>
+        <p>Домен активен, страница готова к хостингу через TON Storage.</p>
+        <a class="card-link" href="#">Опубликовать</a>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> strapon.ton</p>
+    </footer>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
